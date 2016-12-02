@@ -1,0 +1,69 @@
+html,body{
+    margin: 0;padding: 0;width: 100%;height: 100%;
+}
+.swiper-container,.swiper-wrapper,.swiper-slide{
+    width: 100%;height: 100%;
+}
+.swiper-slide{
+    background: #f2f2f2;
+}
+.zhizhu{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background: url("../img/蜘蛛.png") no-repeat;
+    background-size: cover;
+}
+.fangdajing{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background: url("../img/放大镜.png") no-repeat;
+    background-size: cover;
+}
+.swiper-slide:nth-child(2) .zhizhu{
+    background: url("../img/phone.png") no-repeat;
+    background-size: contain;
+}
+.swiper-slide:nth-child(2) .fangdajing{
+    background: url("../img/QQ图片20161202203531.png") no-repeat;
+    background-size: contain;
+}
+.swiper-slide:nth-child(3) .zhizhu{
+    background: url("../img/QQ图片20161202203545.png") no-repeat;
+    background-size: contain;
+}
+.swiper-slide:nth-child(4) .zhizhu{
+    background: url("../img/QQ图片20161202203514.png") no-repeat;
+    background-size: contain;
+}
+.button{
+    width: 2.06rem;
+    height: 0.64rem;
+    background: #306091;
+    border-radius: 0.32rem;
+    font-size: 0.28rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    line-height: 0.64rem;
+    color: #fff;
+}
+.text1{
+    width: 2.9rem;
+    position: relative;
+    font-size: 0.4rem;
+    color: #3f3f3f;
+    margin: 0 auto;
+    margin-top: 9rem;
+    text-align: center;
+}
+.text2{
+    width: 3.2rem;
+    position: relative;
+    font-size: 0.26rem;
+    color: #656565;
+    margin: 0.2rem auto;
+    text-align: center;
+
+}
